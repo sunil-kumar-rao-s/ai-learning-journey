@@ -17,3 +17,17 @@ print(ev_stations)
 
 ev_stations = [station for station in ev_stations if len(station)<5]
 print(ev_stations)
+
+x = 0
+char_arr = []
+
+for station in ev_stations:
+    chat_num = 0
+    for char in station:
+        chat_num= chat_num+1
+    char_arr.append(chat_num)   
+print(char_arr)
+   
+    
+    
+    
